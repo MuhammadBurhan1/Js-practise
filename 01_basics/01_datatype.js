@@ -14,5 +14,13 @@ let isloggedoff = false
 //Object
 console.log(typeof null)
 console.log(typeof undefined)
+// Assignment
+/*Write a JavaScript program that declares two variables using let.
+Assign them any two primitive values (they can be of the same or different types).
+Compare them using both == and ===, and print whether the results are true or false.*/
+let n1 = 18;
+let n2 = 19;
+console.log(n1==n2)
+
 
 
