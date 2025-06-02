@@ -27,3 +27,8 @@ const newTwo = myArr1.splice(1,3)
 console.log(myArr1);
 console.log("C",newTwo);
 
+
+const newbie = "Muhammad-Burhan";
+console.log(newbie)
+console.log(newbie.split("-"))
+
