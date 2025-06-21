@@ -51,3 +51,7 @@ const users =[
 // console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+const array = ["Burhan","Muhammad"];
+const newTwo=array.splice(0,1,"drum");
+console.log(newTwo)
+console.log("A",array)
