@@ -49,9 +49,42 @@ const users =[
 // console.log(tinderUser);
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 const array = ["Burhan","Muhammad"];
 const newTwo=array.splice(0,1,"drum");
-console.log(newTwo)
-console.log("A",array)
+// console.log(newTwo)
+// console.log("A",array)
+// console.log(array.slice(1))
+
+const course = {
+    coursename:"js in javascript",
+    price : 999,
+    courseinstructor:"hitesh"
+
+}
+// console.log(course.courseinstructor)
+const{courseinstructor:instructor}= course
+console.log(instructor);
+
+// {
+//     "name":"Muhammad Burhan",
+//     "price": "free",
+//     "course instructor": "hitesh"
+// }
+
+[
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
+
+    },
+]
+
