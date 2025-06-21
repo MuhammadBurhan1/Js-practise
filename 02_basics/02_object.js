@@ -15,14 +15,20 @@ loginDays:["Monday","Saturday"],
 
 
 }
-console.log(user1);
-console.log(user1.email)
-console.log(user1["full name"])
-console.log(typeof  user1[sym1])
-console.log(user1.email="burhanmalik@google.com")
+// console.log(user1);
+// console.log(user1.email)
+// console.log(user1["full name"])
+// console.log(typeof  user1[sym1])
+// console.log(user1.email="burhanmalik@google.com")
 // Object.freeze(user1);
 user1.email="burhan@microsoft.com"
-console.log(user1)
+// console.log(user1)
 user1.greeting = function(){
     console.log("Hi, how r u")
+
 }
+user1.greeting2 = function(){
+    console.log(`hello,how r u ${this.name}`)
+}
+console.log(user1.greeting())
+console.log(user1.greeting2())
