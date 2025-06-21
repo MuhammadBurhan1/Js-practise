@@ -20,9 +20,26 @@ console.log(Array.isArray("Burhan"));
 console.log(Array.from("Burhan"))
 console.log(Array.from({name:"Burhan"}))// Interesting case as he will not be able to access the key-value pair and we have to defined whether to access key or value pair
 // We can use the of concept as well because it will return array with new set of elements
-let score1 = 100 ;
-let score2 = 200 ;
-let score3 = 300 ;
+// let score1 = 100 ;
+// let score2 = 200 ;
+// let score3 = 300 ;
+// console.log(Array.of(score1,score2,score3));
+
+let obj1 = new Date("2025-06-2")
+// console.log(obj1.toLocaleString())
+let obj2 =Date.now();
+console.log(obj2)
+console.log(obj1.getTime());
+if (obj2>obj1.getTime()){
+    console.log(`obj2 ${obj2} is greater than ${obj1.getTime()} `);
+}
+else
+{
+    console.log(`obj1 ${obj1.getTime()} is greater than obj2 ${obj2}`)
+}
+
+const array = [];
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
 console.log(Array.of(score1,score2,score3));
-
-
