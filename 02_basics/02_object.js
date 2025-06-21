@@ -32,3 +32,6 @@ user1.greeting2 = function(){
 }
 console.log(user1.greeting())
 console.log(user1.greeting2())
+
+const name = "Muhammad-Burhan-Hussain";
+console.log(name.split("-"));// it is a string object method which will convert into array of substring
