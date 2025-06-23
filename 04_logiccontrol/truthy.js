@@ -47,3 +47,4 @@
 // condition ? true : false
 const icePrice = 20;
 icePrice === 20 ? console.log(true):console.log(false)
+
